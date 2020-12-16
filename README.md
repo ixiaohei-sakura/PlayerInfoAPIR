@@ -7,13 +7,9 @@
 
 ## 使用:
 
-##### 方式一:
-
 `PlayerInfoAPIR` 会在MCDR启动时自动被加载至 `server` 动态类中，可以使用 `server.PlayerInfoAPIR.getPlayerInfo` 来调用它
 
-##### 方式二:
-
-除以上方法外，还可以使用插件中提供的 `creatAPI()`函数来创建一个动态api. 至于引用方式，推荐使用MCDR建议的方式 `server.get_plugin_instance()` 或者您可以使用其他的方式.
+[示例插件]: https://github.com/ixiaohei-sakura/PlayerInfoAPIR/blob/master/demoPlugin.py	"插件"
 
 ##### 下面附上表格:
 
