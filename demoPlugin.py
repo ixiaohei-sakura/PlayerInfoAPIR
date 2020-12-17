@@ -1,3 +1,3 @@
 def on_info(server, info):
-    if info.content == "api test":
+    if info.content == "!!APITEST":
         print(server.PlayerInfoAPIR.getPlayerInfo(info.player))
